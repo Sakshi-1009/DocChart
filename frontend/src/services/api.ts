@@ -7,7 +7,6 @@ import type {
   ChatResponse,
   DocumentRecord,
   SourceChunk,
-  ChatMessage,
   StreamEvent,
 } from "../types";
 

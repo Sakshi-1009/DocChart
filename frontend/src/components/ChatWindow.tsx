@@ -3,7 +3,7 @@
  */
 
 import { useState, useRef, useEffect } from "react";
-import type { ChatMessage, SourceChunk } from "../types";
+import type { ChatMessage } from "../types";
 import MessageBubble from "./MessageBubble";
 import { streamChatMessage, sendChatMessage } from "../services/api";
 
